@@ -1,0 +1,189 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+.calculator {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  text-align: right;
+  border-radius: 10px 10px 0 0;
+}
+
+.history {
+  font-size: 14px;
+  color: #aaa;
+  min-height: 20px;
+}
+
+.equation {
+  font-size: 18px;
+  color: #ddd;
+  min-height: 30px;
+}
+
+.result {
+  font-size: 32px;
+  margin-top: 5px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  padding: 20px;
+  font-size: 20px;
+  border: 1px solid #eaeaea;
+  background-color: #f4f4f9;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #d4d4d4;
+}
+
+button:nth-child(4n) {
+  background-color: #ff8c00;
+  color: white;
+}
+
+button:nth-child(17) {
+  grid-column: span 2;
+  background-color: #4caf50;
+  color: white;
+}
+/* Existing CSS code remains here */
+
+.help-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.help-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+/* Existing CSS code remains here */
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  padding: 20px;
+  font-size: 20px;
+  border: 1px solid #eaeaea;
+  background-color: #f4f4f9;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #d4d4d4;
+}
+
+button:nth-child(4n) {
+  background-color: #ff8c00;
+  color: white;
+}
+
+button:nth-child(17) {
+  grid-column: span 2;
+  background-color: #4caf50;
+  color: white;
+}
+
+.help-btn {
+  padding: 20px;
+  font-size: 20px;
+  border: 1px solid #eaeaea;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.help-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
